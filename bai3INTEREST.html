@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lãi suất ngân hàng</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let Loan = +prompt('tiền vay (triệu)');
+    let Interest = +prompt('lãi suất 1 năm (%)');
+    let year = +prompt('số năm vay tiền')
+    let totalAmount = Loan*1000000*(1 +(Interest/100)*year); 
+    document.write(totalAmount);
+</script>
+</html>
